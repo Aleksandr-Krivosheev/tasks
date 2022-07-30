@@ -19,7 +19,6 @@ int main()
     {
         str = "";
         f >> str;
-        /* getline(f,str); */
         if ((str != ";") && (str != ".") && (str != "-") && (str != ","))
         {
             sum++;
